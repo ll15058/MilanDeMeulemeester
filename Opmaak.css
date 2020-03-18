@@ -1,0 +1,44 @@
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 100px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  font-family: times, serif; font-size:14pt; font-style:italic;
+}
+#Toekomst{
+    width: 100%;
+    border-width: medium;
+    border-color: black;
+}
+body{
+  background-image: url(img/bg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  overflow-y:hidden;
+}
+#home{
+	 background-image: url(img/Sunset.jpeg);
+	 background-size: 100% 100%;
+     background-attachment: fixed;
+     overflow-y:hidden;
+}
+#tbltoekomst{
+    border-collapse: collapse;
+    width: 100%;    
+}
+#tblMuziek{
+    border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
